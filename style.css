@@ -265,7 +265,12 @@ footer p {
 /* location */
 
 .location {
-  background-image: url(./images/map/Fast-Food-Places-Near-Me-Google-Maps.jpg);
+  background: linear-gradient(
+      0deg,
+      rgba(253, 215, 219, 0.445),
+      rgba(241, 202, 206, 0.5)
+    ),
+    url(./images/map/Fast-Food-Places-Near-Me-Google-Maps.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -282,12 +287,10 @@ footer p {
   width: 500px;
   text-align: center;
 }
-
 .location-content h2 {
   color: #707070;
   font-size: 30px;
 }
-
 .location-content p {
   font-size: 18px;
   line-height: 1.5;
