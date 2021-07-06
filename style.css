@@ -195,7 +195,7 @@ footer p {
 .log-reg {
   background-image: url(./images/shapes/Frame\ 58.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
 }
 .log-reg-wrapper {
   padding: 50px 0;
@@ -260,4 +260,40 @@ footer p {
 .register-wrapper input:focus,
 .login-wrapper input:focus {
   box-shadow: 0px 0px 10px RGBA(0, 0, 0, 0.2);
+}
+
+/* location */
+
+.location {
+  background-image: url(./images/map/Fast-Food-Places-Near-Me-Google-Maps.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.location-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+
+.location-content {
+  background-color: #fff;
+  padding: 25px;
+  width: 500px;
+  text-align: center;
+}
+
+.location-content h2 {
+  color: #707070;
+  font-size: 30px;
+}
+
+.location-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.location-content .go-map {
+  margin-bottom: 40px;
 }
