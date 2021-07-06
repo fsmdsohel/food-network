@@ -11,7 +11,7 @@ h2 {
   font-size: 40px;
 }
 h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 p {
   font-size: 20px;
@@ -130,6 +130,7 @@ p {
   padding: 25px;
   background-color: #ffffff;
   margin: 0 25px;
+  margin-bottom: 60px;
   border-radius: 25px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -140,6 +141,10 @@ p {
   height: 250px;
   object-fit: cover;
   border-radius: 25px;
+}
+
+.more-recipes {
+  text-align: center;
 }
 
 /* counter */
@@ -175,6 +180,7 @@ footer {
 
 footer h2 {
   color: #5b5b5b;
+  margin: 0;
   padding: 20px 0;
 }
 
@@ -182,4 +188,76 @@ footer p {
   margin: 0;
   padding-bottom: 50px;
   color: #ffffff;
+}
+
+/* login/register */
+
+.log-reg {
+  background-image: url(./images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.log-reg-wrapper {
+  padding: 50px 0;
+  text-align: center;
+}
+.log-reg-header h1 {
+  color: #707070;
+  font-size: 40px;
+}
+.log-reg-form {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.login-form,
+.register-form {
+  width: 100%;
+}
+
+.login-wrapper,
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  height: 92%;
+  box-shadow: 10px 10px 40px RGBA(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.login-wrapper h2,
+.register-wrapper h2 {
+  color: #555555;
+  font-size: 25px;
+}
+
+.login-wrapper input,
+.register-wrapper input {
+  padding: 15px 10px;
+  width: 100%;
+  max-width: 70%;
+  margin: 10px 0;
+  outline: none;
+  border-radius: 15px;
+  border: 0;
+  font-weight: 6001;
+}
+
+.register-wrapper input[type="submit"],
+.login-wrapper input[type="submit"] {
+  font-size: 18px;
+  background-image: linear-gradient(to right, #fba24f, #ff3434);
+  color: #fff;
+  width: 100%;
+  padding: 13px 0;
+}
+
+.register-wrapper input:focus,
+.login-wrapper input:focus {
+  box-shadow: 0px 0px 10px RGBA(0, 0, 0, 0.2);
 }
